@@ -38,7 +38,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main function
 if __name__ == '__main__':
-    app = ApplicationBuilder().token("11").build()
+    app = ApplicationBuilder().token("7696355745:AAGEuIGobaMzJk-2V8QpMpukfrn-tfkmszE").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(button_handler))
