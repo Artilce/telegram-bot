@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 # Auto reply function
 async def auto_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text
-    await update.message.reply_text(f"မင်္ဂလာပါ! နေကောင်းပါသလား: {user_message} ရေ")
+    await update.message.reply_text(f"မင်္ဂလာပါ! နေကောင်းပါသလား: {user_message}")
 
 # Start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
